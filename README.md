@@ -12,16 +12,16 @@ In this project, our design team has already built an HTML/CSS web page for us, 
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [X] Create a forked copy of this project.
+* [X] Add your project manager as collaborator on Github.
+* [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [X] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 * [ ] Add your project manager as a reviewer on the pull-request
 * [ ] Your project manager will count the project as complete by merging the branch back into master.
 
@@ -32,17 +32,17 @@ In this project, our design team has already built an HTML/CSS web page for us, 
 * Once you load the page, you will notice a dropdown menu in the upper left side of the page. Currently when you click on it nothing happens. We will build out the functionality to allow a dropdown menu to open and close when a user clicks on the dropdown button.
   * Study the HTML in the index.html file corresponding to the dropdown component.
   * Study the LESS file in the Dropdown folder. 
-  * With your knowledge of the HTML and CSS, complete the `Dropdown.js` file. You will be creating a dropdown component.
+  * [X] With your knowledge of the HTML and CSS, complete the `Dropdown.js` file. You will be creating a dropdown component.
 
 ### Part Two (Tabs)
 
-* Now that we have an idea of how to create a component with a single class, we will be creating a complex component made up of itself and a sub component. The greater component wrapper will be called `TabLink` and the smaller component it will create will be called `TabItem`.
+* [X] Now that we have an idea of how to create a component with a single class, we will be creating a complex component made up of itself and a sub component. The greater component wrapper will be called `TabLink` and the smaller component it will create will be called `TabItem`.
   * The `TabLink` component will be the overall wrapper of the sub component. This higher level component will find and create the sub component within it. This component will be on each of what we may consider the `tabs` on top of the box. These links will control the associated item, as well as selecting and deselecting themselves.
   * The `TabItem` component will be the text displayed when a tab is selected. It will share a data attribute with it's corresponding tab, and should only show when it's tab has been selected.
 
-* The `Tabs.js` file starts at the bottom of the page and then jumps around. Pay attention to what is being called and when. Study the corresponding HTML and LESS to get a better idea of how the tabs were built.
+* [X] The `Tabs.js` file starts at the bottom of the page and then jumps around. Pay attention to what is being called and when. Study the corresponding HTML and LESS to get a better idea of how the tabs were built.
 
-* Once you have completed the above, add a couple Tabs to the HTML in order to see first hand how great building webpages with components is!
+* [X] Once you have completed the above, add a couple Tabs to the HTML in order to see first hand how great building webpages with components is!
 
 ### Stretch Goals
 
@@ -56,3 +56,25 @@ In this project, our design team has already built an HTML/CSS web page for us, 
   * Look through the LESS code and see where you can refactor using animations to achieve similar results.
 * Add styling using the LESS files.
 * Remove the boxes on the top card and replace them with an image carousel. This will have to be done from scratch, and should be pretty difficult, but it uses the same techniques as the `Tabs` component. Give it a left and right button, and a number of images that scroll as the buttons are pressed.
+
+
+
+# Reflections, Components I, April 18, 2019:
+
+## Pull Request Link
+https://github.com/arturolei/Tabs-Components/pull/1
+
+
+## What did you work on today and yesterday?
+I worked on reviewing the material from the past two weeks in preparation for the Sprint and also finished the Components II MVP
+
+## What Will You Work On Tomorrow or Need to Get Done
+I need to review the TK materials for this module and start preparing for the sprint as well as for Build Week. 
+
+## Blockers/Breakthroughs
+
+### Blockers 
+I need to get better at being able to build components of my own.
+
+### Breakthroughs:
+I understand how we can use data attributes almost like variables.
