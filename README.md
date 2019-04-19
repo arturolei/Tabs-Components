@@ -56,3 +56,25 @@ In this project, our design team has already built an HTML/CSS web page for us, 
   * Look through the LESS code and see where you can refactor using animations to achieve similar results.
 * Add styling using the LESS files.
 * Remove the boxes on the top card and replace them with an image carousel. This will have to be done from scratch, and should be pretty difficult, but it uses the same techniques as the `Tabs` component. Give it a left and right button, and a number of images that scroll as the buttons are pressed.
+
+
+
+# Reflections, Components I, April 18, 2019:
+
+## Pull Request Link
+https://github.com/arturolei/Tabs-Components/pull/1
+
+
+## What did you work on today and yesterday?
+I worked on reviewing the material from the past two weeks in preparation for the Sprint and also finished the Components II MVP
+
+## What Will You Work On Tomorrow or Need to Get Done
+I need to review the TK materials for this module and start preparing for the sprint as well as for Build Week. 
+
+## Blockers/Breakthroughs
+
+### Blockers 
+I need to get better at being able to build components of my own.
+
+### Breakthroughs:
+I understand how we can use data attributes almost like variables.
